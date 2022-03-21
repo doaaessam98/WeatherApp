@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="main" type="com.example.weatherApp.main.MainActivity"/>
+
+    </data>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:pointerIcon="cell"
+        android:background="@drawable/background"
+
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight=".5"
+           app:cardCornerRadius="24dp"
+           android:elevation="16dp"
+           android:layout_marginTop="16dp"
+           android:layout_marginStart="24dp"
+           android:layout_marginEnd="16dp"
+           app:cardBackgroundColor="@android:color/transparent"
+          app:cardElevation="1dp"
+           >
+
+         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="#FF4D88A5"
+             >
+
+
+         </androidx.appcompat.widget.Toolbar>
+       </androidx.cardview.widget.CardView>
+
+            <androidx.fragment.app.FragmentContainerView
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:id="@+id/nav_host_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:defaultNavHost="true"
+                android:layout_weight="4.5"
+                app:navGraph="@navigation/drawer_nav" />
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/drawer_menu"
+
+            app:headerLayout="@layout/nav_header_main"
+
+            />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string name="app_name">اخبار الطقس</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="setting">الاعدادات</string>
+        <string name="favorite">المفضله</string>
+        <string name="home">الرئيسيه</string>
+        <string name="touch_a_day_to_see_forecast_by_hourly">اطغط علي اسم السوم لرؤيه تفاصيل الطقس به</string>
+        <string name="min">الصغري</string>
+        <string name="max">العظمه</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="initial_setting">الاعدادات الاوليه</string>
+        <string name="location_via">الموقع من حلال</string>
+        <string name="Hourofday"> الطقس خلال ساعات اليوم</string>
+        <string name="favourite">المفضله</string>
+        <string name="day_weather">تفاصيل الطقس</string>
+        <string name="gps">الموقع</string>
+        <string name="ok">ok</string>
+        <string name="skip">skip</string>
+        <string name="empty">فارغ</string>
+        <string name="saturday">السبت</string>
+        <string name="sunday">الحد</string>
+        <string name="monday">الاثنين</string>
+        <string name="tuesday">الثلاثاء</string>
+        <string name="wednesday">الاربعاء</string>
+        <string name="friday">الجمعه</string>
+        <string name="thursday">الحميس</string>
+        <string name="map">الخريطه</string>
+        <string name="deleted">حذف</string>
+        <string name="dismiss">انهاء</string>
+        <string name="pressure">الضغط</string>
+        <string name="cloud">السحاب</string>
+        <string name="humidity">الرطوبه</string>
+        <string name="sun_rise">شروق الشمس</string>
+        <string name="wind_speed">سرعه الرياح</string>
+        <string name="sun_set">غروب الشمس</string>
+        <string name="english">الانجليزيه</string>
+        <string name="arabic">العربيه</string>
+        <string name="language">اللغه</string>
+
+        <string name="celsius">سيليزيس</string>
+        <string name="kelvin">كيلفين</string>
+        <string name="fahrenheit">فهرنهايت</string>
+        <string name="meter_second">متر/الثانيه</string>
+        <string name="mile_hour">مليي/ساعه</string>
+        <string name="temperature">درجه الحراره</string>
+        <string name="location">الموقع</string>
+        <string name="from">من</string>
+        <string name="data_picker">التاريخ</string>
+        <string name="time_picker">الوقت</string>
+        <string name="to">الي</string>
+        <string name="notification">التنبهات</string>
+        <string name="Alarm">التنبيهات</string>
+        <string name="save">حفظ</string>
+        <string name="cancel">الغاء</string>
+        <string name="select_place">اختار المكان</string>
+
+</resources>
